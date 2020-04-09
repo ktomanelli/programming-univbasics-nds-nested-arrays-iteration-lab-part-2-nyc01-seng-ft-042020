@@ -7,9 +7,9 @@ def find_min_in_nested_arrays(arr)
     arr[i].length.times do |x|
       if(arr[i][x]<min) 
         min = arr[i][x]
-        newArr.push(min)
       end
     end  
+        newArr.push(min)
   end
   newArr
 end
